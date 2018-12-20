@@ -1,0 +1,18 @@
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #708090;
+}
+.mainRow
+{
+    text-align: center;
+}
+.lgrg
+{
+    text-align: right;
+}
+#top
+{
+    text-align: center;
+    font-size: 70px;
+}
