@@ -1,0 +1,87 @@
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #708090;
+}
+.topRow
+{
+    text-align: center;
+    float: none;
+    height: 17px;
+    margin-top: 5px;
+}
+.lgrg   /*Login and Register*/
+{
+    text-align: right;
+    float: right;
+    width: 150px;
+    height: 17px;
+}
+.login
+{
+    display: inline;
+    /*background: green;*/  /*Added color to see block*/
+    margin-right: 10px;
+}
+.login a
+{
+    color: white;
+    text-decoration: none;
+    /*padding: 10px;*/      /*Padding it makes highlighting reach to top of padding*/
+}
+.register
+{
+    display: inline;
+    /*background: red;*/    /*Added color to see block*/
+    margin-right: 10px;
+}
+.register a
+{
+    color: white;
+    text-decoration: none;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+}
+li
+{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover
+{
+    background-color: #111;
+}
+.nav
+{
+    /*float: right;
+    width: 800px;*/
+}
+#top
+{
+    text-align: center;
+    font-size: 70px;
+    margin: 0;
+}
+.bottom a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
