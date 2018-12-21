@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #708090;
+}
+
+.welcomeTitle{
+    text-align: center;
+    font-size: 35px;
+
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+li{
+    display: inline;
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: aliceblue;
+}
+
+.sampleText{
+    text-align: center;
+    font-size: 15px;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
