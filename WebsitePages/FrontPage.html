@@ -6,19 +6,35 @@
     <link href="../StyleSheets/FrontPage.css" type="text/css" rel="stylesheet" />
 </head>
     <body>
-        <div class="mainRow">
-            <div class="lgrg"> <!-- Login and register -->
+        <!-- Top row to avoid any containers from interfering with it -->
+        <div class="topRow">
+            <!-- Contains the Login and Register containers -->
+            <div class="lgrg">
+                <!-- Login container -->
                 <div class="login">
                     <a class="log" href="https://www.google.com/">Login</a>
                 </div>
+                <!-- Register container -->
                 <div class="register">
                     <a class="reg" href="https://www.google.com/">Register</a>
                 </div>
             </div>
         </div>
+        <!-- Title of page container -->
         <div>
-            <h1 id="top">Meme Page</h1><!-- Main title of page -->
+            <h1 id="top">Meme Page</h1>
         </div>
+        <!-- Navigation bar create. May set this in another container to avoid #top from staying to the right of it -->
+        <div class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Hot</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">New</a></li>
+            </ul>
+        </div>
+        <br />
+        <!-- Bottom/footer container. Purpose is to jump back to the top of the page -->
         <div class="bottom">
             <a href="#top">Top of page</a>
         </div>
