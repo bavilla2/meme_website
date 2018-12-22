@@ -1,16 +1,10 @@
 body{
     font-family: Arial, sans-serif;
     background-color: #708090;
-}
-
-.welcomeTitle{
     text-align: center;
-    font-size: 35px;
-
 }
 
-
-
+/*Beginning of navigation bar style*/
 ul{
     list-style-type: none;
     margin: 0;
@@ -38,17 +32,62 @@ li a{
 li a:hover{
     background-color: aliceblue;
 }
+/*End of navigation bar style*/
+
+
+.welcomeTitle{
+    text-align: center;
+    font-size: 35px;
+
+}
 
 .sampleText{
     text-align: center;
-    font-size: 15px;
+    font-size: 35px;
 }
 
+/*Sets the image to respond to changes in the size of the screen
+and centers image in the middle using margin-left and margin-right
+ */
+
 img{
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+form{
+    padding-top: 24px;
+    display: inline-block;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 25px;
+}
+
+input[type=submit]{
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.submitButton{
+    padding-top: 30px;
+    padding-left: 19px;
+}
+
+label{
+    padding: 12px 12px 12px 25px;
+    display: inline-block;
+    font-size: 25px;
+}
