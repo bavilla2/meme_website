@@ -36,6 +36,7 @@ li a:hover{
 
 
 .welcomeTitle{
+    padding-top: 30px;
     text-align: center;
     font-size: 35px;
 
@@ -90,4 +91,30 @@ label{
     padding: 12px 12px 12px 25px;
     display: inline-block;
     font-size: 25px;
+}
+
+label a{
+    font-size: 20px;
+}
+
+.alreadyUser{
+    padding-left: 20px;
+}
+
+.login
+{
+    padding-top:45px;
+    text-align: right;
+    float: right;
+    width: 150px;
+    height: 17px;
+    display: inline;
+    /*background: green;*/  /*Added color to see block*/
+    margin-right: 10px;
+}
+.login a
+{
+    color: black;
+    text-decoration: none;
+    /*padding: 10px;*/      /*Padding it makes highlighting reach to top of padding*/
 }
