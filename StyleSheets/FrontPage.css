@@ -40,7 +40,7 @@ body
     color: white;
     text-decoration: none;
 }
-ul
+.nav ul
 {
     list-style-type: none;
     margin: 0;
@@ -50,12 +50,12 @@ ul
     position: -webkit-sticky;
     position: sticky;
 }
-li
+.nav li
 {
     float: left;
     border-right: 1px solid #bbb;
 }
-li a
+.nav li a
 {
     display: block;
     color: white;
@@ -63,14 +63,41 @@ li a
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover
+.nav li a:hover
 {
     background-color: #111;
 }
-.nav
+.categories ul
 {
-    /*float: right;
-    width: 800px;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+}
+.categories li
+{
+    color: white;
+    border-bottom: 1px solid #bbb;
+}
+.categories li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+.categories li:last-child
+{
+    border-bottom: none;
+}
+.categories li a:hover
+{
+    background-color: #111;
 }
 #top
 {
